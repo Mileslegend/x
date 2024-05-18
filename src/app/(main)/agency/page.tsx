@@ -36,7 +36,7 @@ const Page = async ({searchParams}: {searchParams: {plan: Plan; state: string; c
       )
     }
   }
-  const authUSer = await currentUser();
+  const authUser = await currentUser();
   return (
 
     <div className='flex justify-center items-center mt-4 '>
